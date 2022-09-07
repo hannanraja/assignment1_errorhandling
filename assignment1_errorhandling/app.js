@@ -11,8 +11,8 @@ function mycalc(x, y) {
     try {
         const result = Math.ceil((x ** 2) + (5 * y));
     }
-    catch (errorr) {
-        console.log(errorr)
+    catch (error) {
+        console.log(error)
     }
         return result;
 }
